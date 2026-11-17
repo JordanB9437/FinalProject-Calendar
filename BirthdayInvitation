@@ -21,8 +21,6 @@ age = currentYear - birthYear;
 if(){
 }
 else if(){
-if(){
-}
 }
 else if(){
 }
