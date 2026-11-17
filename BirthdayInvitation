@@ -1,10 +1,13 @@
+import java.util.Scanner;
 public class HonorsProject{
 public static void main(String[] args) {
 
 //Jamison: adding variables
 Scanner input = new Scanner(System.in);
+int birthYear;
+int currentYear;
 int age;
-
+//Jordan: working on if statements
   printIntro();
 if(){
 }
