@@ -8,7 +8,16 @@ int birthYear;
 int currentYear;
 int age;
 //Jordan: working on if statements
+
   printIntro();
+  System.out.println("Enter the birth year: ");
+	birthYear = input.nextInt();
+	System.out.println("Enter the current year: ");
+	currentYear = input.nextInt();
+
+//Jamison: added age calculation
+age = currentYear - birthYear;
+
 if(){
 }
 else if(){
@@ -40,8 +49,6 @@ else if(){
   
 }
 
-//Jamison: added age calculation
-age = currentYear - birthYear;
 
 public static void printIntro(){
   System.out.println("Welcome to your Birthday Invitation Creator!");
