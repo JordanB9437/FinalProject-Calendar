@@ -1,4 +1,4 @@
-public class 
+public class HonorsProject{
 public static void main(String[] args) {
 
 //Jamison: adding variables
@@ -40,4 +40,5 @@ else if(){
 public static void printIntro(){
   System.out.println("Welcome to your Birthday Invitation Creator!");
 
+}
 }
