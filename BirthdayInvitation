@@ -1,5 +1,10 @@
 public class 
 public static void main(String[] args) {
+
+//Jamison: adding variables
+Scanner input = new Scanner(System.in);
+int age;
+
   printIntro();
 if(){
 }
