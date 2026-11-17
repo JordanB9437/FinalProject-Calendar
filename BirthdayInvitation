@@ -18,32 +18,46 @@ int age;
 //Jamison: added age calculation
 age = currentYear - birthYear;
 
-if(){
-}
-else if(){
-}
-else if(){
-}
-else if(){
-}
-else if(){
-}
-else if(){
-}
-else if(){
-}
-else if(){
-}
-else if(){
-}
-else if(){
-}
-else if(){
-}
-else if(){
-}
-else if(){
-}
+		if(){
+			System.out.println();
+		}
+		else if(){
+			System.out.println();
+		}
+		else if(){
+			System.out.println();
+		}
+		else if(){
+			System.out.println();
+		}
+		else if(){
+			System.out.println();
+		}
+		else if(){
+			System.out.println();
+		}
+		else if(){
+			System.out.println();
+		}
+		else if(){
+			System.out.println();
+		}
+		else if(){
+			System.out.println();
+		}
+		else if(){
+			System.out.println();
+		}
+		else if(){
+			System.out.println();
+		}
+		else if(){
+			System.out.println();
+		}
+		else if(){
+			System.out.println();
+		}
+		  
   
 }
 
