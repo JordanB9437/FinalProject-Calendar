@@ -40,6 +40,9 @@ else if(){
   
 }
 
+//Jamison: added age calculation
+age = currentYear - birthYear;
+
 public static void printIntro(){
   System.out.println("Welcome to your Birthday Invitation Creator!");
 
