@@ -7,6 +7,15 @@ Scanner input = new Scanner(System.in);
 int birthYear;
 int currentYear;
 int age;
+
+//Jamison: Parameter variables for printInvitation().
+		
+		String guest;
+		String host;
+		String location;
+		String dressCode;
+		String contact;
+
 //Jordan: working on if statements
 
   printIntro();
