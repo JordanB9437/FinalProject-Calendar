@@ -7,6 +7,7 @@ Scanner input = new Scanner(System.in);
 int birthYear;
 int currentYear;
 int age;
+String userInput;
 
 //Jamison: Parameter variables for printInvitation().
 		
@@ -19,54 +20,52 @@ int age;
 //Jordan: working on if statements
 
   printIntro();
-  System.out.println("Enter the birth year: ");
+  System.out.print("Enter the birth year: ");
 	birthYear = input.nextInt();
-	System.out.println("Enter the current year: ");
+	System.out.print("Enter the current year: ");
 	currentYear = input.nextInt();
-
+	System.out.print("Enter birthmonth: ");
+	userInput = input.next();
 //Jamison: added age calculation
 age = currentYear - birthYear;
 
-		if(){
-			System.out.println();
+		if(userInput == "January"){
+			january();
 		}
-		else if(){
-			System.out.println();
+		else if(userInput == "Febuary"){
+			february();
 		}
-		else if(){
-			System.out.println();
+		else if(userInput == "March"){
+			march();
 		}
-		else if(){
-			System.out.println();
+		else if(userInput == "April"){
+			april();
 		}
-		else if(){
-			System.out.println();
+		else if(userInput == "May"){
+			may();
 		}
-		else if(){
-			System.out.println();
+		else if(userInput == "June"){
+			june();
 		}
-		else if(){
-			System.out.println();
+		else if(userInput == "July"){
+			july();
 		}
-		else if(){
-			System.out.println();
+		else if(userInput == "August"){
+			august();
 		}
-		else if(){
-			System.out.println();
+		else if(userInput == "September"){
+			september();
 		}
-		else if(){
-			System.out.println();
+		else if(userInput == "October"){
+			october();
 		}
-		else if(){
-			System.out.println();
+		else if(userInput == "November"){
+			november();
 		}
-		else if(){
-			System.out.println();
+		else if(userInput == "December"){
+			december();
 		}
-		else if(){
-			System.out.println();
-		}
-		  
+
   
 }
 
